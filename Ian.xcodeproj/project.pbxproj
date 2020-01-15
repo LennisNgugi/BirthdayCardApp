@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17271A2E23CCDC4200F3DEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17271A2D23CCDC4200F3DEB7 /* AppDelegate.swift */; };
+		17271A3023CCDC4200F3DEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17271A2F23CCDC4200F3DEB7 /* ViewController.swift */; };
+		17271A3523CCDC4200F3DEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17271A3323CCDC4200F3DEB7 /* Main.storyboard */; };
+		17271A3723CCDC5900F3DEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17271A3623CCDC5900F3DEB7 /* Assets.xcassets */; };
+		17271A3A23CCDC5900F3DEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17271A3823CCDC5900F3DEB7 /* LaunchScreen.storyboard */; };
+		17271A4523CCDC5A00F3DEB7 /* BirthdayCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17271A4423CCDC5A00F3DEB7 /* BirthdayCardTests.swift */; };
+		17271A5023CCDC5A00F3DEB7 /* BirthdayCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17271A4F23CCDC5A00F3DEB7 /* BirthdayCardUITests.swift */; };
+		17271A5E23CCDCCB00F3DEB7 /* DOET.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 17271A5D23CCDCCB00F3DEB7 /* DOET.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17271A4123CCDC5A00F3DEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17271A2223CCDC4100F3DEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17271A2923CCDC4100F3DEB7;
+			remoteInfo = BirthdayCard;
+		};
+		17271A4C23CCDC5A00F3DEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17271A2223CCDC4100F3DEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17271A2923CCDC4100F3DEB7;
+			remoteInfo = BirthdayCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17271A2A23CCDC4200F3DEB7 /* Ian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17271A2D23CCDC4200F3DEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17271A2F23CCDC4200F3DEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17271A3423CCDC4200F3DEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17271A3623CCDC5900F3DEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17271A3923CCDC5900F3DEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17271A3B23CCDC5900F3DEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17271A4023CCDC5A00F3DEB7 /* BirthdayCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17271A4423CCDC5A00F3DEB7 /* BirthdayCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCardTests.swift; sourceTree = "<group>"; };
+		17271A4623CCDC5A00F3DEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17271A4B23CCDC5A00F3DEB7 /* BirthdayCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17271A4F23CCDC5A00F3DEB7 /* BirthdayCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCardUITests.swift; sourceTree = "<group>"; };
+		17271A5123CCDC5A00F3DEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17271A5D23CCDCCB00F3DEB7 /* DOET.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = DOET.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17271A2723CCDC4100F3DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17271A3D23CCDC5A00F3DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17271A4823CCDC5A00F3DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17271A2123CCDC4100F3DEB7 = {
+			isa = PBXGroup;
+			children = (
+				17271A2C23CCDC4200F3DEB7 /* BirthdayCard */,
+				17271A4323CCDC5A00F3DEB7 /* BirthdayCardTests */,
+				17271A4E23CCDC5A00F3DEB7 /* BirthdayCardUITests */,
+				17271A2B23CCDC4200F3DEB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17271A2B23CCDC4200F3DEB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17271A2A23CCDC4200F3DEB7 /* Ian.app */,
+				17271A4023CCDC5A00F3DEB7 /* BirthdayCardTests.xctest */,
+				17271A4B23CCDC5A00F3DEB7 /* BirthdayCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17271A2C23CCDC4200F3DEB7 /* BirthdayCard */ = {
+			isa = PBXGroup;
+			children = (
+				17271A2D23CCDC4200F3DEB7 /* AppDelegate.swift */,
+				17271A2F23CCDC4200F3DEB7 /* ViewController.swift */,
+				17271A5D23CCDCCB00F3DEB7 /* DOET.rcproject */,
+				17271A3323CCDC4200F3DEB7 /* Main.storyboard */,
+				17271A3623CCDC5900F3DEB7 /* Assets.xcassets */,
+				17271A3823CCDC5900F3DEB7 /* LaunchScreen.storyboard */,
+				17271A3B23CCDC5900F3DEB7 /* Info.plist */,
+			);
+			path = BirthdayCard;
+			sourceTree = "<group>";
+		};
+		17271A4323CCDC5A00F3DEB7 /* BirthdayCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				17271A4423CCDC5A00F3DEB7 /* BirthdayCardTests.swift */,
+				17271A4623CCDC5A00F3DEB7 /* Info.plist */,
+			);
+			path = BirthdayCardTests;
+			sourceTree = "<group>";
+		};
+		17271A4E23CCDC5A00F3DEB7 /* BirthdayCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17271A4F23CCDC5A00F3DEB7 /* BirthdayCardUITests.swift */,
+				17271A5123CCDC5A00F3DEB7 /* Info.plist */,
+			);
+			path = BirthdayCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17271A2923CCDC4100F3DEB7 /* BirthdayCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17271A5423CCDC5A00F3DEB7 /* Build configuration list for PBXNativeTarget "BirthdayCard" */;
+			buildPhases = (
+				17271A2623CCDC4100F3DEB7 /* Sources */,
+				17271A2723CCDC4100F3DEB7 /* Frameworks */,
+				17271A2823CCDC4100F3DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayCard;
+			productName = BirthdayCard;
+			productReference = 17271A2A23CCDC4200F3DEB7 /* Ian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17271A3F23CCDC5A00F3DEB7 /* BirthdayCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17271A5723CCDC5A00F3DEB7 /* Build configuration list for PBXNativeTarget "BirthdayCardTests" */;
+			buildPhases = (
+				17271A3C23CCDC5A00F3DEB7 /* Sources */,
+				17271A3D23CCDC5A00F3DEB7 /* Frameworks */,
+				17271A3E23CCDC5A00F3DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17271A4223CCDC5A00F3DEB7 /* PBXTargetDependency */,
+			);
+			name = BirthdayCardTests;
+			productName = BirthdayCardTests;
+			productReference = 17271A4023CCDC5A00F3DEB7 /* BirthdayCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17271A4A23CCDC5A00F3DEB7 /* BirthdayCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17271A5A23CCDC5A00F3DEB7 /* Build configuration list for PBXNativeTarget "BirthdayCardUITests" */;
+			buildPhases = (
+				17271A4723CCDC5A00F3DEB7 /* Sources */,
+				17271A4823CCDC5A00F3DEB7 /* Frameworks */,
+				17271A4923CCDC5A00F3DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17271A4D23CCDC5A00F3DEB7 /* PBXTargetDependency */,
+			);
+			name = BirthdayCardUITests;
+			productName = BirthdayCardUITests;
+			productReference = 17271A4B23CCDC5A00F3DEB7 /* BirthdayCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17271A2223CCDC4100F3DEB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lennis Luigi";
+				TargetAttributes = {
+					17271A2923CCDC4100F3DEB7 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					17271A3F23CCDC5A00F3DEB7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 17271A2923CCDC4100F3DEB7;
+					};
+					17271A4A23CCDC5A00F3DEB7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 17271A2923CCDC4100F3DEB7;
+					};
+				};
+			};
+			buildConfigurationList = 17271A2523CCDC4100F3DEB7 /* Build configuration list for PBXProject "Ian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17271A2123CCDC4100F3DEB7;
+			productRefGroup = 17271A2B23CCDC4200F3DEB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17271A2923CCDC4100F3DEB7 /* BirthdayCard */,
+				17271A3F23CCDC5A00F3DEB7 /* BirthdayCardTests */,
+				17271A4A23CCDC5A00F3DEB7 /* BirthdayCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17271A2823CCDC4100F3DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17271A3A23CCDC5900F3DEB7 /* LaunchScreen.storyboard in Resources */,
+				17271A3723CCDC5900F3DEB7 /* Assets.xcassets in Resources */,
+				17271A3523CCDC4200F3DEB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17271A3E23CCDC5A00F3DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17271A4923CCDC5A00F3DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17271A2623CCDC4100F3DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17271A5E23CCDCCB00F3DEB7 /* DOET.rcproject in Sources */,
+				17271A3023CCDC4200F3DEB7 /* ViewController.swift in Sources */,
+				17271A2E23CCDC4200F3DEB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17271A3C23CCDC5A00F3DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17271A4523CCDC5A00F3DEB7 /* BirthdayCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17271A4723CCDC5A00F3DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17271A5023CCDC5A00F3DEB7 /* BirthdayCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17271A4223CCDC5A00F3DEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17271A2923CCDC4100F3DEB7 /* BirthdayCard */;
+			targetProxy = 17271A4123CCDC5A00F3DEB7 /* PBXContainerItemProxy */;
+		};
+		17271A4D23CCDC5A00F3DEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17271A2923CCDC4100F3DEB7 /* BirthdayCard */;
+			targetProxy = 17271A4C23CCDC5A00F3DEB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17271A3323CCDC4200F3DEB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17271A3423CCDC4200F3DEB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17271A3823CCDC5900F3DEB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17271A3923CCDC5900F3DEB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17271A5223CCDC5A00F3DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17271A5323CCDC5A00F3DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17271A5523CCDC5A00F3DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ZRDZ74D3;
+				INFOPLIST_FILE = BirthdayCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = User.BirthdayCard;
+				PRODUCT_NAME = Ian;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17271A5623CCDC5A00F3DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ZRDZ74D3;
+				INFOPLIST_FILE = BirthdayCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = User.BirthdayCard;
+				PRODUCT_NAME = Ian;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17271A5823CCDC5A00F3DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ZRDZ74D3;
+				INFOPLIST_FILE = BirthdayCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = User.BirthdayCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayCard.app/BirthdayCard";
+			};
+			name = Debug;
+		};
+		17271A5923CCDC5A00F3DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ZRDZ74D3;
+				INFOPLIST_FILE = BirthdayCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = User.BirthdayCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayCard.app/BirthdayCard";
+			};
+			name = Release;
+		};
+		17271A5B23CCDC5A00F3DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ZRDZ74D3;
+				INFOPLIST_FILE = BirthdayCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = User.BirthdayCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthdayCard;
+			};
+			name = Debug;
+		};
+		17271A5C23CCDC5A00F3DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ZRDZ74D3;
+				INFOPLIST_FILE = BirthdayCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = User.BirthdayCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthdayCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17271A2523CCDC4100F3DEB7 /* Build configuration list for PBXProject "Ian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17271A5223CCDC5A00F3DEB7 /* Debug */,
+				17271A5323CCDC5A00F3DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17271A5423CCDC5A00F3DEB7 /* Build configuration list for PBXNativeTarget "BirthdayCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17271A5523CCDC5A00F3DEB7 /* Debug */,
+				17271A5623CCDC5A00F3DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17271A5723CCDC5A00F3DEB7 /* Build configuration list for PBXNativeTarget "BirthdayCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17271A5823CCDC5A00F3DEB7 /* Debug */,
+				17271A5923CCDC5A00F3DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17271A5A23CCDC5A00F3DEB7 /* Build configuration list for PBXNativeTarget "BirthdayCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17271A5B23CCDC5A00F3DEB7 /* Debug */,
+				17271A5C23CCDC5A00F3DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17271A2223CCDC4100F3DEB7 /* Project object */;
+}
